@@ -1,0 +1,90 @@
+@font-face { 
+    font-family: nasa;
+     src: url(../fonts/nasalization-rg.ttf);
+}
+
+* { 
+box-sizing: border-box;
+margin: 0;
+max-height: 100vh;
+max-width: 100vw;
+background-color: #040d1c;
+font-family: "nasa";
+}
+
+.navbar-inner { 
+background-color: #0b3d91;
+}
+
+.logo { 
+    margin: 25vw;
+    padding-left:2.5vw;
+    width:50vw;
+    height 50vw;
+}
+
+.title { 
+color: white;
+width: 100vw;
+position: fixed;
+bottom: 2vh;
+text-align: center;
+font-size: 1.5em;
+font-family: "nasa";
+}
+
+.today { 
+position: fixed; 
+right: 2vw;
+background-color: #0b3d91;
+}
+
+.yest { 
+position: fixed; 
+left: 2vw;
+background-color: #0b3d91;
+}
+
+.home { 
+position: fixed;
+left: 40vw;
+text-align: center;
+background-color: #0b3d91;
+}
+
+.link { 
+background-color: #0b3d91;
+}
+
+.img-today { 
+margin-top:5vh;
+width: 100vw;
+height: 100vw;
+background-image: url(../imgs/today.png);
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+.img-yest { 
+margin-top:5vh;
+width: 100vw;
+height: 100vw;
+background-image: url(../imgs/yesterday.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+.title-img{
+color: white;
+width: 100vw;
+position: relative;
+opacity: 0.5;
+bottom: 100vw;
+text-align: center;
+font-size: 0.75em;
+font-family: "nasa"; 
+}
+
+p{
+    color: white;
+}
